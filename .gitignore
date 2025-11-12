@@ -1,0 +1,67 @@
+# -------------------------
+# Python / Jupyter Ignore Rules
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Datasets and models
+data/
+datasets/
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+models/
+*.pkl
+*.joblib
+
+# Reports and outputs
+*.pdf
+*.html
+*.json
+outputs/
+reports/
+
+# Environment and cache files
+*.env
+*.cache/
+__pycache__/
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+.coverage.*
+
+# Notebook execution artifacts
+*.nbconvert.ipynb
